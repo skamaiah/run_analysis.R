@@ -111,7 +111,8 @@ headervalues <- sub("Group.2","Activities",headervalues)
 
 headervalues -> names(finaltidydata)
 
-# The final file would be saved on your working directory as "TidyData.csv".
+# The final file would be saved on your working directory as "TidyData.txt".
+# This can be read into R using the instruction "read.table("./tidyData.txt",stringsAsFactors=FALSE)"
 
-write.csv(finaltidydata, file = "TidyData.csv")
-print("Tidy data set with the average of each variable for each activity and each subject is saved under the file name TidyData.csv on your working directory")
+write.table(finaltidydata, file = "TidyData.txt")
+print("Tidy data set with the average of each variable for each activity and each subject is saved under the file name TidyData.txt on your working directory")
