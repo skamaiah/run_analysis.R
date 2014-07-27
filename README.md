@@ -13,6 +13,7 @@ run_analysis.R
 10.	Save the tidy data as a txt file.
 
 Discription about the script run_analysis.R is given below:
+
 Step1:  lines 6 to 8 
 
 Is to check to see if the data for the project is already downloaded in the currect working directory if its not done then it would download the same onto the working directory and unzip the file.Here I have assumed that if you have downloaded the file then you have retained the file name as "getdata-projectfiles-UCI HAR Dataset.zip".
